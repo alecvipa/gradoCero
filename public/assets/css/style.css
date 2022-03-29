@@ -1,0 +1,103 @@
+
+.fonts3{
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+.footer{
+    padding-top: 3%;
+    margin-top: -10%;
+}
+.pointer {
+    cursor: pointer;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  
+  /* @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  } */
+
+
+
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(min-width:992px){
+    .imgGradoCeroBlanco{
+        height: 30rem !important;
+    }
+    
+    
+}
+@media(max-width:991px){
+    
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #contacto{
+        margin-top: -30%;
+        margin-bottom: -30%;
+    }
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+    .nosotrosSomos{
+        margin-top: -20%;
+    }
+    .bannerSpace{
+        height: 10rem;
+    }
+   
+}
