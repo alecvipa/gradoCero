@@ -1,6 +1,7 @@
 
 .fonts3{
-    font-family: 'Nunito Sans', sans-serif !important;
+    /* font-family: 'Nunito Sans', sans-serif !important; */
+    font-family: 'IBM Plex Sans Arabic', sans-serif !important;
 
 }
 .footer{
@@ -10,6 +11,13 @@
 .pointer {
     cursor: pointer;
 }
+.imgGradoCeroBlanco{
+    margin-top: 4%;
+}
+.sloganDiv{
+    padding: 1%;
+    background-color: black !important;
+}
 
 header {
     position: relative;
@@ -18,9 +26,9 @@ header {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-  }
+}
   
-  header video {
+header video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,36 +41,42 @@ header {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-  }
+}
   
-  header .container {
+header .container {
     position: relative;
     z-index: 2;
-  }
+}
   
-  header .overlay {
+header .overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: 1;
-  }
+}
+.misionVisionDiv{
+    padding: 3%;
+}
   
-  /* @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+/* @media (pointer: coarse) and (hover: none) {
+header {
+  background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll; 
+}
+header video {
+    display: none;
     }
-    header video {
-      display: none;
-    }
-  } */
+} */
 
 
 
 @media (min-width: 992px) {
+    .cardSomos{
+        padding-right: 7% !important;
+    }
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;
     }
@@ -80,6 +94,9 @@ header {
     
 }
 @media(max-width:991px){
+    .containerGradoCeroSomos{
+        margin-top: -15%;
+    }
     
     .footer{
         padding-top: 10%;

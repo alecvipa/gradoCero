@@ -1,4 +1,60 @@
 <div class="inicio">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="/assets/images/logoColorCircle.jpg" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    {{!-- <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul> --}}
+                </div>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
     <header>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -17,34 +73,229 @@
             </div> --}}
         </div>
     </header>
-    <div class="nosotrosSomos">
-        <div class="container ">
-            <div class="row text-center">
-                <h3>
-                    Somos una empresa líder en dar soluciones en las
-                    distintas áreas de la industria.
-                </h3>
-                <h5>
-                    Haz crecer tu negocio con nuestro equipo de trabajo.
-                </h5>
-            </div>
-            <hr>
+    <div class="sloganDiv">
+        <div class="container">
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <p class="note note-info">
-                        <strong>Asesoria y consultoria de servicios profesionales:</strong> Nuestro propósito es servir,
-                        cumpliendo los propósitos del negocio y
-                        generando nuevas oportunidades.
-
-                    </p>
-
-                </div>
-                <div class="col-md-3"></div>
-
+                <h3 class="text-center text-white">
+                    Construímos tus más grandes ideas.
+                </h3>
             </div>
         </div>
-    </div> <br>
+    </div>
+    <br>
+    <div data-draggable="true" style="position: relative;">
+        <!---->
+        <!---->
+        <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="mb-10 text-center text-lg-start">
+                <style>
+                    .cascading-right {
+                        margin-right: -50px;
+                    }
+
+                    @media (max-width: 991.98px) {
+                        .cascading-right {
+                            margin-right: 0;
+                        }
+                    }
+                </style> <!-- Jumbotron -->
+                <div class="container py-4 containerGradoCeroSomos">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-lg-6 mb-5 mb-lg-0">
+                            <div class="card cascading-right cardSomos"
+                                style=" background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px); ">
+                                <div class="card-body py-5 px-md-5 shadow-5">
+                                    <h3 class="fw-bold">Grado Cero</h3>
+                                    <hr>
+                                    <h5 class="text-primary mb-5">Confianza, Calidad & Atención personalizada</h5>
+                                    <p class="fw-bold">Es una constructora responsable y comprometida que ofrece una
+                                        amplia gama de servicios que van desde el diseño, planeación, gestoría de
+                                        proyectos, consultoría de arquitectura, construcción de obras públicas y
+                                        privadas, construcción de estructuras e instalaciones. </p>
+                                    <hr>
+                                    <p class="fw-bold mb-4">Calidad en nuestros servicios La calidad es nuestro pilar
+                                        mas importante, estamos comprometidos a dar los mejores resultados y estar en
+                                        constante mejora, innovando siempre en nuestros servicios. Nuestros diseños son
+                                        personalizados con los mejores arquitectos e ingenieros civiles.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-5 mb-lg-0"> <img src="/assets/images/sparks.jpg"
+                                class="w-100 rounded-5 shadow-4" alt="" aria-controls="#picker-editor"> </div>
+                    </div>
+                </div> <!-- Jumbotron -->
+            </section>
+        </section>
+        <!---->
+    </div>
+    <div class="misionVisionDiv bg-dark">
+        <div class="container text-white">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h3>Misión</h3>
+                    <hr>
+                    <p>Estar a la vanguardia y en constante renovación para otorgarle a nuestros clientes servicios de
+                        calidad y a la medida.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Visión</h3>
+                    <hr>
+                    <p>Ser un ejemplo en el sector de la construcción logrado la confianza de cada uno de nuestros
+                        clientes. Nuestro equipo de profesionales busca las mejores soluciones para la construcción de
+                        proyectos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-draggable="true" style="position: relative;">
+        <!---->
+        <!---->
+        <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="mb-10">
+                <h3 class="text-black">Lo que ofrecemos:</h3> <hr>
+                <style>
+                    /* Map settings */
+                    .map-container-2 {
+                        height: 500px;
+                    }
+
+                    .map-container-2 iframe {
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .rounded-t-5 {
+                        border-top-left-radius: 0.5rem;
+                        border-top-right-radius: 0.5rem;
+                    }
+
+                    @media (min-width: 992px) {
+                        .rounded-tr-lg-0 {
+                            border-top-right-radius: 0;
+                        }
+
+                        .rounded-bl-lg-5 {
+                            border-bottom-left-radius: 0.5rem;
+                        }
+                    }
+                </style>
+                <div class="card mb-3">
+                    <div class="row g-0 d-flex align-items-center">
+                        <div class="col-lg-4 d-none d-lg-flex">
+                            <div class="map-container-2 w-100 mb-4 mb-lg-0">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481728.804584038!2d-99.42380635078402!3d19.390519038362424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1648658082049!5m2!1ses-419!2smx"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body py-5 px-md-5">
+                                <div class="row gx-lg-5">
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-person-digging"></i>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Construcción de obras </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-helmet-safety"></i>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Infraestructura urbana y vial</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fas fa-newspaper fa-lg text-white fa-fw"
+                                                        aria-controls="#picker-editor"></i>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Gestoría de proyectos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-brush"></i> </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Acabados y recubrimiento</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-paint-roller"></i> </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Remodelación y mantenimiento</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-building"></i> </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Estructuras</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-trowel-bricks fa-lg text-white"></i> </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Instalación y albañilería</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0">
+                                                <div class="p-3 bg-dark rounded-4 shadow-2-strong"> <i
+                                                        class="fa-solid fa-lg text-white fa-mound"></i> </div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-4">
+                                                <p class="fw-bold mb-1">Compra venta de material de construcción</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!---->
+    </div>
     <div class="noticiasDiv">
         <div class="container">
             <div class="row">
