@@ -55,11 +55,14 @@ header .overlay {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.1;
+    opacity: 0.3;
     z-index: 1;
 }
 .misionVisionDiv{
     padding: 3%;
+}
+.navbar-toggler{
+    color: white !important;
 }
   
 /* @media (pointer: coarse) and (hover: none) {
