@@ -6,7 +6,6 @@
 }
 .footer{
     padding-top: 3%;
-    margin-top: -10%;
 }
 .pointer {
     cursor: pointer;
@@ -16,7 +15,24 @@
 }
 .sloganDiv{
     padding: 1%;
-    background-color: black !important;
+    background-color: #8E703C !important;
+}
+.divContacto{
+    padding: 5%;
+}
+.contactanos{
+    height: 35rem;
+    background-image: url("/assets/images/contactBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.privacidadBannerGradoCero{
+    height: 35rem;
+    background-image: url("/assets/images/contactBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -97,6 +113,19 @@ header video {
     
 }
 @media(max-width:991px){
+    .contactanos{
+        background-position: 53% 59%;
+        height: 29rem;
+        margin-bottom: 5%;
+    }
+    .privacidadBannerGradoCero{
+        background-position: 53% 59%;
+        height: 29rem;
+    }
+    
+    .sloganDiv{
+        padding-top: 4%;
+    }
     .containerGradoCeroSomos{
         margin-top: -15%;
     }
@@ -105,10 +134,7 @@ header video {
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 3%;
-    }
-    #contacto{
-        margin-top: -30%;
-        margin-bottom: -30%;
+        margin-bottom: -15%;
     }
     .responsiveMarginCard{
         margin-top: 5%;

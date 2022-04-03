@@ -49,7 +49,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ email: form.email.value }));
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -69,9 +69,7 @@
 
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center">
-                    <p><b>Consulting Jofer S. de R.L. de C.V.</b> Todos los derechos reservados. Sus datos están
-                        protegidos por
-                        la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
+                    <p><b>Grado Cero Constructora S.A. de C.V.</b> <br> <span><a href="/privacidad" style="color: gray;">Visita nuestra
                                 política de privacidad</a></span></p>
                 </div>
                 <div class="col-md-3"></div>

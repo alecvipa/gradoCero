@@ -1,6 +1,6 @@
 <div class="inicio">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4C3C32;">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->
@@ -362,9 +362,8 @@
                                         estamos convencidos de que los espacios pueden recobrar vida, ser espacios
                                         inteligentes y sobre todo seguir manteniendo la seguridad de las construcciones.
                                         Hacemos mantenimientos preventivos y preventivos.</span></p>
-                                    <a class="btn ch-bg  btn-dark"
-                                        href="#contacto" target="_blank"
-                                        role="button" aria-controls="#picker-editor">Contacto</a>
+                                    <a class="btn ch-bg  btn-dark" href="#contacto"  role="button"
+                                        aria-controls="#picker-editor">Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 flex-lg-row-reverse align-items-center">
@@ -380,9 +379,8 @@
                                         personal, trámite de permisos, licencias de construcción, topografía, mecánica
                                         de suelos y calculo estructural. Hasta la entrega final de la obra y
                                         construcción. </p>
-                                    <a class="btn ch-bg  btn-dark"
-                                        href="#contacto" target="_blank"
-                                        role="button" aria-controls="#picker-editor">Contacto</a>
+                                    <a class="btn ch-bg  btn-dark" href="#contacto"  role="button"
+                                        aria-controls="#picker-editor">Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 align-items-center">
@@ -398,7 +396,7 @@
                                         están a la vanguardia buscando que sean funcionales utilizando los mejores
                                         materiales y métodos constructivos. </p>
                                     <a class="btn ch-bg  btn-dark" role="button" aria-controls="#picker-editor"
-                                        href="#contacto" target="_blank">Contacto</a>
+                                        href="#contacto" >Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 flex-lg-row-reverse align-items-center">
@@ -412,9 +410,8 @@
                                     <p class="text-black">Construimos sistemas de redes de energía, fuentes de
                                         abastecimientos, plantas de tratamiento de aguas, puentes y vías con
                                         pavimentaciones de distintos materiales. </p>
-                                    <a class="btn ch-bg  btn-dark"
-                                        href="#contacto" target="_blank"
-                                        role="button" aria-controls="#picker-editor">Contacto</a>
+                                    <a class="btn ch-bg  btn-dark" href="#contacto"  role="button"
+                                        aria-controls="#picker-editor">Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 align-items-center">
@@ -429,7 +426,7 @@
                                         obra negra para darle que las construcciones tengan un aspecto habitable con un
                                         terminado de calidad. </p>
                                     <a class="btn ch-bg  btn-dark" role="button" aria-controls="#picker-editor"
-                                        href="#contacto" target="_blank">Contacto</a>
+                                        href="#contacto" >Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 flex-lg-row-reverse align-items-center">
@@ -442,9 +439,8 @@
                                     <hr>
                                     <p class="text-black">Somo responsables de instalar la energía eléctrica desde el
                                         punto de suministro hasta los equipos que la utilicen. </p>
-                                    <a class="btn ch-bg  btn-dark"
-                                        href="#contacto" target="_blank"
-                                        role="button" aria-controls="#picker-editor">Contacto</a>
+                                    <a class="btn ch-bg  btn-dark" href="#contacto"  role="button"
+                                        aria-controls="#picker-editor">Contacto</a>
                                 </div>
                             </div>
                             <div class="row gx-lg-5 mb-5 align-items-center">
@@ -455,16 +451,63 @@
                                 <div class="col-md-6 mb-4 mb-md-0">
                                     <h3 class="fw-bold">Estructuras</h3>
                                     <hr>
-                                    <p class="text-black">Tenemos una amplia experiencia en la elaboración, fabricación y
+                                    <p class="text-black">Tenemos una amplia experiencia en la elaboración, fabricación
+                                        y
                                         montaje de estructuras metálicas desde obras pequeñas hasta grandes obras como
                                         son naves Industriales o edificios de acero. </p>
                                     <a class="btn ch-bg  btn-dark" role="button" aria-controls="#picker-editor"
-                                        href="#contacto" target="_blank">Contacto</a>
+                                        href="#contacto" >Contacto</a>
                                 </div>
                             </div>
                         </section>
                     </section>
                     <!---->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contacto" class="contactanos">
+            
+    </div>
+    <div class="divContacto">
+        <div class="container">
+            <div >
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);">
+                            <!-- Name input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="form4Example1" class="form-control formInput" name="name" required />
+                                <label class="form-label" for="form4Example1">Nombre</label>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form4Example2" class="form-control formInput" name="email" required />
+                                <label class="form-label" for="form4Example2">Correo Electrónico</label>
+                            </div>
+
+                            <!-- Message input -->
+                            <div class="form-outline mb-4">
+                                <textarea class="form-control formInput" id="form4Example3" rows="4" name="message" required></textarea>
+                                <label class="form-label" for="form4Example3">Mensaje</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4"
+                                    required />
+                                <label class="form-check-label" for="form4Example4">
+                                    Acepto política de privacidad
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-light mb-4">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-2"></div>
                 </div>
             </div>
         </div>
